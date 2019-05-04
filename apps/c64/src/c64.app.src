@@ -1,0 +1,15 @@
+{application, c64,
+	[{description, "A stupid simple C64 Assembly Parser"},
+		{vsn, "0.1.0"},
+		{registered, []},
+		{applications,
+			[kernel,
+				stdlib
+			]},
+		{env, []},
+		{modules, []},
+
+		{maintainers, ["Ralf Th. Pietsch <ratopi@abwesend.de>"]},
+		{licenses, ["MIT"]},
+		{links, []}
+	]}.
